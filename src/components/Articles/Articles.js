@@ -26,7 +26,7 @@ const Articles = ({ articles }) => {
          <h1 className="landing-h1">Top news stories making headlines.</h1>
          <p className="landing-p">Click on an article below to view full story.</p>
        </div>
-       <div>
+       <div className="newspaper-and-glasses-img-container">
          <img src={ newspaperAndGlasses } alt="newspaper and glasses" className="newspaper-and-glasses-img"></img>
        </div>
      </section>
