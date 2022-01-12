@@ -3,8 +3,8 @@ import './Categories.css'
 const Categories = ({ setCategory }) => {
 
   return (
-    <nav className='categories'>
-      <div className='categories-container'>
+    <nav className='categories-container'>
+      <div className='categories'>
         <button onClick={() => setCategory('arts')}>Arts</button>
         <button onClick={() => setCategory('automobiles')}>Automobiles</button>
         <button onClick={() => setCategory('books')}>Books</button>
