@@ -1,0 +1,38 @@
+.article-card-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 300px;
+  height: 400px;
+  margin: 25px;
+  padding: 25px;
+  color: black;
+}
+
+.article-card__image {
+  width: 320px;
+}
+
+.crop-image {
+  display: flex;
+  height: 210px;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.article-card__title {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.article-card__author {
+  margin-top: 10px;
+}
+
+.article-card__category {
+  margin-top: 10px;
+  color: red
+}

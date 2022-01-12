@@ -7,7 +7,13 @@ const Articles = ({ articles }) => {
     return (  
       <div className="articles">
         <ArticleCard
-          title={article.title}
+          key={ i }
+          image={ article.multimedia[0].url}
+          category={ article.section }
+          published_date={ article.published_date}
+          title={ article.title }
+          author={ article.byline }
+          url={ article.url }
         />
       </div>
       )

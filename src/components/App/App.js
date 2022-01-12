@@ -3,7 +3,6 @@ import { getData } from '../../apiCalls'
 import './App.css';
 import Header from '../Header/Header'
 import Articles from '../Articles/Articles'
-import ArticleDetails from '../ArticleDetails/ArticleDetails'
 import Footer from '../Footer/Footer'
 
 const App = () => {
@@ -20,7 +19,6 @@ const App = () => {
     <div className="App">
       <Header />
       <Articles articles={ articles } />
-      <ArticleDetails />
       <Footer />
     </div>
   );
