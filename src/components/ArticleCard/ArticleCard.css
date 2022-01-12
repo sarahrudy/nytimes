@@ -1,16 +1,19 @@
 .article-card-container {
   display: flex;
   flex-direction: column;
-  border: 1px solid black;
-  width: 300px;
-  height: 400px;
+  width: 250px;
+  height: 450px;
   margin: 25px;
-  padding: 25px;
   color: black;
+  border-radius: 4px;
+  padding: 8px 16px;
+  color: #2d3748;
+  border: 1px solid #cbd5e0;
+  line-height: 26px;
 }
 
 .article-card__image {
-  width: 320px;
+  width: 300px;
 }
 
 .crop-image {

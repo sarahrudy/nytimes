@@ -2,6 +2,8 @@
   display: flex;
   width: 100%;
   text-decoration: none;
+  margin-top: 20px;
+  color: #2d3748;
 }
 
 .h1-and-p {
@@ -16,6 +18,7 @@
 
 .landing-p {
   font-size: 2.5vw;
+  margin-top: 15px;
 }
 
 .newspaper-and-glasses-img-container {
