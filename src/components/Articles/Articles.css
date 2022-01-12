@@ -1,8 +1,9 @@
 .landing-page-container {
   display: flex;
   width: 100%;
-  min-width: 800px;
   text-decoration: none;
+  margin-top: 20px;
+  color: #2d3748;
 }
 
 .h1-and-p {
@@ -17,10 +18,16 @@
 
 .landing-p {
   font-size: 2.5vw;
+  margin-top: 15px;
+}
+
+.newspaper-and-glasses-img-container {
+  height: 100%;
+  width: 100%;
 }
 
 .newspaper-and-glasses-img {
-  width: 100%;
+  width: 50vw;
 }
 
 .articles-container {
