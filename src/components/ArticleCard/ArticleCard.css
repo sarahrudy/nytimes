@@ -39,3 +39,8 @@
   margin-bottom: 10px;
   color: red
 }
+
+
+.article-card-container:hover {
+  border: 1px solid black;
+}
